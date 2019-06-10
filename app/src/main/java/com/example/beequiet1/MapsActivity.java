@@ -26,6 +26,7 @@ import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.android.gms.tasks.Task;
 
 public class MapsActivity extends FragmentActivity implements OnMapReadyCallback {
+    //test
     Button button;
     Location currentLocation;
     FusedLocationProviderClient fusedLocationProviderClient;
