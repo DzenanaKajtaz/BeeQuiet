@@ -91,7 +91,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         LatLng ltLg = googleMap.getCameraPosition().target;
        final CircleOptions circle = new CircleOptions()
                 .center(new LatLng(ltLg.latitude,ltLg.longitude))
-                .radius(500)
+                .radius(400)
                 .strokeColor(Color.BLUE)//border color
                 .strokeWidth(3.0f)//border width
                 .fillColor(0x200000ff);
